@@ -40,6 +40,8 @@ We use OpenCV and Streamlit to take an image of your toast, analyze the brightne
 ---
 
 ## 🚀 Implementation
+run with
+ python -m streamlit run toast.py
 
 ### 🔧 Installation
 
