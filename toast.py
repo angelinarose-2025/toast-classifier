@@ -62,7 +62,7 @@ burn_styles = {
     "🟠 Lightly Toasted": {"color": "#ff9800", "emoji": "🟠"},
     "🟤 Medium Toasted": {"color": "#6d4c41", "emoji": "🟤"},
     "⚫ Dark Toasted": {"color": "#37474f", "emoji": "⚫"},
-    "🔥 Burnt to a Crisp!": {"color": "#f44336", "emoji": "🔥"},
+    "🔥 is that food or....": {"color": "#f44336", "emoji": "🔥"},
 }
 
 # Brightness calculation
@@ -121,3 +121,4 @@ if uploaded_file:
     """, unsafe_allow_html=True)
 
 st.markdown('</div>', unsafe_allow_html=True)
+
