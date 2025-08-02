@@ -1,102 +1,76 @@
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
+# 🧪 Toast Burnness Classifier 🎯  
+_Breakfast diagnostics you didn’t know you needed._
 
+---
 
-# [Project Name] 🎯
+## 🧠 Basic Details
 
+### 🏷️ Team Name  
+**Jalebi**
 
-## Basic Details
-### Team Name: [Name]
+### 👥 Team Members
+- Member 1: **Hridhika Satheesh** - _TKM College of Engineering_
+- Member 2: **Angelina Rose M** – _TKM College of Engineering_
 
+---
 
-### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+## 💡 Project Description  
+A web app that analyzes your toast and tells you whether it's uncooked, perfectly crisp, or burnt to a tragic crisp — all using computer vision and vibes.
 
-### Project Description
-[2-3 lines about what your project does]
+---
 
-### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+## ❌ The Problem (That Doesn't Exist)  
+People are guessing their toast doneness with their eyes and instincts. That’s risky, imprecise, and chaotic. What if you toast too much and ruin breakfast?
 
-### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+---
 
-## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+## ✅ The Solution (Nobody Asked For)  
+We use OpenCV and Streamlit to take an image of your toast, analyze the brightness of the center region, and classify it from “Uncooked” to “Burnt to a Crisp” — complete with fun emojis and a glowing box of judgment.
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+---
 
-### Implementation
-For Software:
-# Installation
-[commands]
+## 🧪 Technical Details
 
-# Run
-[commands]
+### 💻 Software Stack
+- **Languages:** Python  
+- **Frameworks:** Streamlit  
+- **Libraries:** OpenCV, NumPy, Pillow  
+- **Tools:** VSCode, GitHub, Stack Overflow (a lot)
 
-### Project Documentation
-For Software:
+---
+
+## 🚀 Implementation
+
+### 🔧 Installation
+
+opencv
+streamlit
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="2876" height="1421" alt="image" src="https://github.com/user-attachments/assets/22a94387-3e8d-4e40-8f01-55cf7792a499" />
+front page with upload function
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="2859" height="1411" alt="image" src="https://github.com/user-attachments/assets/df8de391-d74e-42e5-a47f-ccfbd4154443" />
+Lightly toasted bread
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="2858" height="1410" alt="image" src="https://github.com/user-attachments/assets/25d4aef9-3ec1-4e50-8e5a-9d8c45ecef8f" />
+Very toasted bread
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+<img width="121" height="901" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/a53e267e-4a08-4616-8760-10344c3e5a4e" />
+This workflow processes the center region of the uploaded toast image, computes masked brightness, and classifies it into one of five burn levels using OpenCV and Streamlit.
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+(https://drive.google.com/file/d/1_C7ILmcVqpTwRGE_9gnq5TkImYh7b0sT/view?usp=sharing)
+video demonstrating the working of the toaster classifier app. shows the app classifying two toasts based on the toastedness.
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Angelina: opencv and streamlit
+- Hridhika: css and stylization
 
----
-Made with ❤️ at TinkerHub Useless Projects 
+  
 
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
 
 
 
